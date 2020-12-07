@@ -21,7 +21,7 @@ do
 			add_car+=$Make
 			add_car+=":" 
 			add_car+=$Model
-			echo $add_car >> My_old_cars ;;
+			echo"$add_car" >> My_old_cars ;;
 		"2") sort My_old_cars ;;
 		"3") echo"Goodbye"
 			l=0 ;;
