@@ -7,15 +7,15 @@ do
 	echo"Type the number 1 to enter a new car"
 	echo"Type the number 2 to display the list of cars"
 	echo"Type the number 3 to quit and exit the program"
-	read number
+	read -r number
 	case "$number" in
 		"1") 
 			echo"Enter the Year"
-			read Year
+			read -r Year
 			echo"Enter the Make"
-			read Make
+			read -r Make
 			echo"Enter the Model"
-			read Model
+			read -r Model
 			add_car+=$Year
 			add_car+=":" 
 			add_car+=$Make
